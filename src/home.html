@@ -11,24 +11,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-  <title>Home - Cafe JF</title>
+  <title>Home - Better Together Coffee Shop Kugenuma Kaigan</title>
 </head>
 
 <body>
+  <div id="loading-spinner" class="loading-spinner">
+    <div class="spinner"></div>
+  </div>
     <!-- Your content here -->
   <div class="banner">
   <nav id="navbar" class="nav-bar">
-    <!-- <div class="logo">
+    <div class="logo">
       <a href="./home.html">
-        <img class="logo-img" src="./images/" alt="yink_banner" width="80px">
-        <img src="./images/IMG_0637.jpg" width="80px" alt="jflogo">
+        <img class="logo-img" src="./images/logo.jpg" alt="jf logo">
       </a>
-    </div> -->
+    </div>
     <div class="nav-toggle">
       <i class="fas fa-bars"></i>
     </div>
     <div class="nav-menu-container">
       <ul class="nav-menu">
+        <li><a href="./under_construction.html">Store</a></li>
         <li><a href="./home.html#shop-menu-nav">Shop Menu</a></li>
         <li><a href="./home.html#contact-nav">Contact</a></li>
       </ul>
@@ -37,7 +40,7 @@
 
     <div class="home-title">
        <h1 class="m-none p-none">Cafe JF</h1>
-       <img  class="banner-logo" src="./images/IMG_0637.jpg" alt="">
+       <!-- <img  class="banner-logo" src="./images/logo.jpg" alt="jf cafe logo"> -->
        <!-- <div class="shop-now-btn">
         <a href="./store.html"><p>Shop Now</p></a>
       </div> -->
@@ -53,247 +56,288 @@
 
 <div id="shop-menu-nav" class="menu-category">
   <h3 class="border-bottom">Coffee</h3>
-  <p><em>Soymilk +100¥</em></p>
     <ul class="p-none">
       <section class="section">
       <li class="menu-item">
           <div class="item-details">
-              <span class="item-name"><p>Long Black(hot/iced)</p></span>
-              <span class="item-price">¥450</span>
+            <span class="item-name"><p>Long Black(hot/iced)</p></span>
+            <span class="item-price">¥450</span>
           </div>
           <div class="item-description">
             dairy substitue +100¥
-          </div>
-      </li>
-    </section>
-    <section class="section">
-
-      <li class="menu-item">
-          <div class="item-details">
-              <span class="item-name"><p>Cafe Latte(hot/iced)</p></span>
-              <span class="item-price">¥550</span>
-          </div>
-          <div class="item-description">
-            dairy substitue +100¥
-          </div>
-      </li>
-    </section>
-      <h3>Smoothies</h3>
-      <section class="section">
-
-      <li class="menu-item">
-          <div class="item-details">
-              <span class="item-name"><p>Tropical Smoothie</p></span>
-              <span class="item-price">¥550</span>
-          </div>
-          <div class="item-description">
-              Orange, Mango, Honey
-          </div>
-      </li>
-    </section>
-    <section class="section">
-      <li class="menu-item">
-          <div class="item-details">
-              <span class="item-name"><p>Avacado Sesame Smoothie</p></span>
-              <span class="item-price">¥ 650</span>
-          </div>
-          <div class="item-description">
-              Avacado, Banana, Soy Milk, Sesame, Honey
-          </div>
-      </li>
-    </section>
-      <section class="section">
-      <li class="menu-item">
-          <div class="item-details">
-              <span class="item-name"><p>Yogurt Berry Smoothie</p></span>
-              <span class="item-price">¥ 650</span>
-          </div>
-          <div class="item-description">
-              Yogurt, Banana, Blueberry, Soy Milk,
-          </div>
-      </li>
-    </section>
-      </ul>
-  </div>
-    <div class="menu-category">
-      <h3 class="border-bottom">Other</h3>
-      <ul class="p-none">
-        <section class="section">
-      <li class="menu-item">
-          <div class="item-details">
-              <span class="item-name"><p>Sodas</p></span>
-              <span class="item-price">¥400</span>
-          </div>
-          <div class="item-description">
-            Gingerale, Coke Cola
           </div>
       </li>
     </section>
     <section class="section">
       <li class="menu-item">
         <div class="item-details">
-            <span class="item-name"><p>Orange Juice</p></span>
+          <span class="item-name"><p>Cafe Latte(hot/iced)</p></span>
+          <span class="item-price">¥550</span>
+        </div>
+        <div class="item-description">
+          dairy substitue +100¥
+        </div>
+    </li>
+  </section>
+  <h3 class="background-black">Smoothies</h3>
+  <section class="section">
+    <li class="menu-item">
+      <div class="item-details">
+        <span class="item-name"><p>Tropical Smoothie</p></span>
+        <span class="item-price">¥550</span>
+
+      </div>
+      <div class="item-description">
+        Orange, Mango, Honey
+      </div>
+  </li>
+    <li class="menu-item">
+      <div class="item-details">
+        <span class="item-name"><p>Avacado Sesame Smoothie</p></span>
+        <span class="item-price">¥650</span>
+      </div>
+      <div class="item-description">
+        Avacado, Banana, Soy Milk, Sesame, Honey
+      </div>
+  </li>
+    <li class="menu-item">
+      <div class="item-details">
+        <span class="item-name"><p>Yogurt Berry Smoothie</p></span>
+              <span class="item-price">¥650</span>
+      </div>
+      <div class="item-description">
+        Yogurt, Banana, Blueberry, Soy Milk,
+      </div>
+  </li>
+</section>
+
+</ul>
+  </div>
+  <div class="menu-category">
+    <h3 class="border-bottom">Other</h3>
+    <ul class="p-none">
+      <section class="section">
+    <li class="menu-item">
+        <div class="item-details">
+            <span class="item-name"><p>Sodas</p></span>
             <span class="item-price">¥400</span>
         </div>
         <div class="item-description">
-        </div>
-      </li>
-    </section>
-      <section class="section">
-        <li class="menu-item"></li>
-          <div class="item-details">
-              <span class="item-name"><p>Tea</p> </span>
-              <span class="item-price">¥400</span>
-          </div>
-          <div class="item-description">
-              Jasmine, Green Tea, Oolong
-          </div>
-      </li>
-      </section>
-      <section class="section">
-      <li class="menu-item">
-        <div class="item-details">
-            <span class="item-name">
-             <p>Ice Cream</p>
-            </span>
-            <span class="item-price">¥450</span>
-        </div>
-        <div class="item-description">
-          Vanilla
+          Gingerale, Coke Cola
         </div>
     </li>
   </section>
   <section class="section">
     <li class="menu-item">
       <div class="item-details">
-          <span class="item-name"><p>Coffee Float</p></span>
-          <span class="item-price">¥650</span>
+          <span class="item-name"><p>Orange Juice</p></span>
+          <span class="item-price">¥400</span>
       </div>
       <div class="item-description">
-        Long Black, Vanilla Ice Cream
+      </div>
+    </li>
+  </section>
+    <section class="section">
+      <li class="menu-item"></li>
+        <div class="item-details">
+            <span class="item-name"><p>Tea</p> </span>
+            <span class="item-price">¥400</span>
+        </div>
+        <div class="item-description">
+            Jasmine, Green Tea, Oolong
+        </div>
+    </li>
+    </section>
+    <section class="section">
+    <li class="menu-item">
+      <div class="item-details">
+          <span class="item-name">
+           <p>Ice Cream</p>
+          </span>
+          <span class="item-price">¥450</span>
+      </div>
+      <div class="item-description">
+        Vanilla
       </div>
   </li>
-  </section>
-  <section class="section">
+</section>
+<section class="section">
   <li class="menu-item">
     <div class="item-details">
-        <span class="item-name"><p>Cola Float</p></span>
+        <span class="item-name"><p>Coffee Float</p></span>
         <span class="item-price">¥650</span>
     </div>
     <div class="item-description">
-      Coke Cola, Vanilla Ice Cream
+      Long Black, Vanilla Ice Cream
     </div>
-  </li>
+</li>
+</section>
+<section class="section">
+<li class="menu-item">
+  <div class="item-details">
+      <span class="item-name"><p>Cola Float</p></span>
+      <span class="item-price">¥650</span>
+  </div>
+  <div class="item-description">
+    Coke Cola, Vanilla Ice Cream
+  </div>
+</li>
+
 </section>
 
-    </ul>
-    <img class="menu-img" src="./images/bettertogether_menu_image-1024x683.webp" alt="">
-      </div>
-    </div>
-      <h2 >Food</h2>
-      <div class="menu">
-
-        <div class="menu-category">
-          <h3 class="border-bottom">Bowls</h3>
-          <ul class="p-none">
-            <section class="section">
-              <li class="menu-item">
-                <div class="item-details">
-                <span class="item-name"><p>Shirasu Bowl(White Bait)</p></span>
-                <span class="item-price">¥1500</span>
-              </div>
-              <div class="item-description">
-              Rice, Kettle fried Shirasu, Egg, Oba, Seaweed
-            </div>
-          </li>
-        </section>
-        <section class="section">
-          <li class="menu-item">
-            <div class="item-details">
-              <span class="item-name"><p>Jerk Chicken Bowl</p></span>
-              <span class="item-price">¥1300</span>
-            </div>
-            <div class="item-description">
-              Chicken, Lemon
-            </div>
-          </li>
-        </section>
-        <section class="section">
-          <li class="menu-item">
-            <div class="item-details">
-                <span class="item-name"><p>Hamburg & Egg Bowl</p></span>
-                <span class="item-price">¥1500</span>
-            </div>
-            <div class="item-description">
-              Hamburg, Hot Spring Egg, Sunny Lettuce, Tomato
-            </div>
-        </li>
-        </section class="section">
-      </ul>
-    </div>
-      <div class="menu-category">
-        <h3 class="border-bottom">Other</h3>
-        <ul class="p-none">
-          <section class="section">
-        <li class="menu-item">
-            <div class="item-details">
-                <span class="item-name"><p>JF Acai Bowl</p></span>
-                <span class="item-price">¥1700</span>
-            </div>
-            <div class="item-description">
-              Acai, Banana, Mango, Blueberry, Mixed Berry, Granola
-            </div>
-        </li>
-      </section>
-    </ul>
-    <img class="menu-img" src="./images/bettertogether_menu_image-1024x683.webp" alt="">
-      </div>
+  </ul>
+  <img class="menu-img" src="./images/bettertogether_menu_image-1024x683.webp" alt="">
     </div>
   </div>
+  <h2 >Food</h2>
+  <div class="menu">
+
+    <div class="menu-category">
+      <h3 class="border-bottom">Bowls</h3>
+      <ul class="p-none">
+        <section class="section">
+          <li class="menu-item">
+            <div class="item-details">
+            <span class="item-name"><p>Shirasu Bowl(White Bait)</p></span>
+            <span class="item-price">¥1500</span>
+          </div>
+          <div class="item-description">
+          Rice, Kettle fried Shirasu, Egg, Oba, Seaweed
+        </div>
+      </li>
+    </section>
+    <section class="section">
+      <li class="menu-item">
+        <div class="item-details">
+          <span class="item-name"><p>Jerk Chicken Bowl</p></span>
+          <span class="item-price">¥1300</span>
+        </div>
+        <div class="item-description">
+          Chicken, Lemon
+        </div>
+      </li>
+    </section>
+    <section class="section">
+      <li class="menu-item">
+        <div class="item-details">
+            <span class="item-name"><p>Hamburg & Egg Bowl</p></span>
+            <span class="item-price">¥1500</span>
+        </div>
+        <div class="item-description">
+          Hamburg, Hot Spring Egg, Sunny Lettuce, Tomato
+        </div>
+    </li>
+    </section>
+  </ul>
 </div>
+  <div class="menu-category">
+    <h3 class="border-bottom">Other</h3>
+    <ul class="p-none">
+      <section class="section">
+    <li class="menu-item">
+        <div class="item-details">
+            <span class="item-name"><p>JF Acai Bowl</p></span>
+            <span class="item-price">¥1700</span>
+        </div>
+        <div class="item-description">
+          Acai, Banana, Mango, Blueberry, Mixed Berry, Granola
+        </div>
+    </li>
+  </section>
+</ul>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <!-- <div class="numbertext"></div> -->
+    <img class="menu-img"src="./images/acai_bowl.jpg" alt="acai_bowl">
+    <div class="text">Acai Bowl</div>
+  </div>
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">2 / 3</div> -->
+    <img class="menu-img" src="./images/poke_bowl.jpg" alt="poke_bowl" >
+    <div class="text">Poke Bowl</div>
+  </div>
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">3 / 3</div> -->
+    <img class="menu-img" src="./images/shirasu.jpg" alt="shirasu_bowl">
+    <div class="text">Shirasu Bowl</div>
+  </div>
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">3 / 3</div> -->
+    <img class="menu-img" src="./images/hamburg.jpg" alt="hamburg_bowl">
+    <div class="text">Hamburg Bowl</div>
+  </div>
+
+  <!-- Next and previous buttons
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br> -->
+
+<!-- The dots/circles
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> -->
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+</div>
+
 
 <h1 class="border-top">About</h1>
 <div class="about">
   <div class="store-bio">
   <span>
     <h2 class="border-bottom-white">Our Store</h2>
-    Better Together Coffee is a cozy café located in Kugenuma Kaigan, Japan,
-    where we bring a taste of Australian coffee culture to our coastal town.
-    Founded by an Aussie at heart who spent years in Australia, we're dedicated to serving
-    great coffee made from the finest beans. We're all about connecting people over quality brews and warm conversations.
-    Come in and experience a little slice of Australia, right here in Japan!
+    <section class="section">
+      店主が実際にメルボルンのコーヒー屋さんで働いていた経験から、
+      コーヒーと焼き菓子はメルボルンスタイルになっています。
+      コーヒーは現地で馴染みのある浅煎りで、焼き菓子は全てグルテンフリー、
+      乳製品不使用のビーガン焼き菓子もご用意しています。
+  </section>
   </span>
-  <img class="about-image" src="./images/bettertogethercoffee23-1536x1024 (1).jpg" alt="better">
+  <img class="about-image" src="./images/slide_4.jpg" alt="better">
   </div>
   <div class="product-bio">
     <span>
       <h2 class="border-bottom-white">Our Coffee</h2>
-
-      At Better Together Coffee, we’re passionate about sourcing only the finest beans for our brews. We carefully select our
-       beans from sustainable farms around the world, ensuring they’re ethically grown and harvested. Each batch is
-       roasted to perfection, bringing out the unique flavors that make every cup special. Whether it’s a rich,
-        bold espresso or a smooth, balanced pour-over, our dedication to quality shines through in every sip.
+      <section class="section">
+        このお店は姉妹で経営しています。コーヒーと焼き菓子、
+        コーヒーと家族時間、コーヒーと海、
+        一緒だとより良いという想いを込めて。
+        coffee + ___ = ☺︎ 空欄に入る言葉は人それぞれです。
+      </section>
     </span>
-    <img class="about-image" src="./images/coffee-beanssourcing.jpg" alt="better">
+    <img class="about-image" src="./images/slide_1.jpg" alt="better">
   </div>
   <div class="owner-bio">
-    <div class="owner-profile">
-      <img class="owner-avatar"src="./images/coffee_owner_avatar_croppped.webp" alt="">
-      <h3>Owner - Miya Higashi</h3>
-      <p>Barista | Baker | Chef</p>
-</div>
 <div class="owner-profile">
-  <img class="owner-avatar" src="./images/coffee_owner_avatar_croppped.webp" alt="">
-  <h3>owner- Tsu Higashi</h3>
+  <img class="owner-avatar" src="./images/owner_photo.jpg" alt="owner_phto">
+  <h3>Owner- Momoko Isigure & Namika Isigure</h3>
   <p>Barista | Baker | Chef</p>
 </div>
 <p>We are sisters and we love to make coffeee</p>
 </div>
 </div>
 </div>
+
 <div class="ig-feed">
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-99cc6a7f-5027-4780-bdaa-e3bd1a7d690a" data-elfsight-app-lazy></div>
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+  <div class="elfsight-app-ab6b7bf9-f824-46cc-8eb1-fd57b30465d5" data-elfsight-app-lazy></div>
 </div>
 <div class="footer">
   <div id="contact-nav" class="contact-info">
@@ -331,11 +375,17 @@
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </div>
+  </div>
+  <div class="tag-credit">
+  <h1>powered by Green Heart Place & DASgood Technologies</h1>
 </div>
 
 
 <script src="index.js"></script>
 <script src="scroll.js"></script>
+<script src="slide_show.js"></script>
+
+
 
 </body>
 
