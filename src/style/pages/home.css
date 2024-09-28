@@ -37,6 +37,8 @@ body {
   text-align: center;
   justify-content: center;
   color: white;
+  box-shadow: 3px 3px rgb(71, 75, 77);
+
 }
 .section {
   opacity: 0;
@@ -431,7 +433,7 @@ span{
   .banner {
     width: 100%;
     color: white;
-    height: 800px; /* or any desired height */
+    height: 600px; /* or any desired height */
     /* background-image: -webkit-image-set(url('../..//images/better_together.webp') 1x);
     background-image: -moz-image-set(url('../../images/better_together.webp') 1x);
     background-image: -o-image-set(url('../../images/better_together.webp') 1x); */
